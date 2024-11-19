@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>JS first class</title>
+
+</head>
+
+<body>
+    <p id="text">This is the orginal pargraph</p>
+    <button id="changetextbutton">sign up</button>
+
+    <script>
+        // sellect the buttons and paragraph elements
+        const button=document.getElementById('changetextbutton');
+        const paragraph=document.getElementById('text');
+        // add a click  event  listener to the button 
+        button.addEventListener("click",()=> {
+            paragraph.textContent='hello fahim boss';
+        });
+    </script>
+</body>
+
+</html>
